@@ -3,7 +3,7 @@ import multer from "multer";
 import { addRecipe, getRecipe, getRecipes } from "../controllers/recipes.controllers.js";
 
 //Configure multer/upload middleware
-const upload = multer({dest: "uploads"});
+const upload = multer({dest: "uploads/images"});
 
 //create recipes router
 const router = Router();
